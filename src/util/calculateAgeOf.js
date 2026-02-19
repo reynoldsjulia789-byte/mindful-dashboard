@@ -1,5 +1,6 @@
 // Function
-export const calculateAgeOf = (birthDate) => {
+export const calculateAgeOf = (birthDate) =>
+  {
   // Convert birth date string to Date object
   const birth = new Date(birthDate);
   const today = new Date();

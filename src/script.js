@@ -11,10 +11,10 @@ initClock();
 initDate();
 
 // Age of Person
-const ageOfPerson       = calculateAgeOf("2000-01-01");
+const age               = calculateAgeOf("2000-01-01");
 const elemAge           = document.querySelector('.ageOfPerson');
-elemAge.textContent     = ageOfPerson;
-elemAge.setAttribute("datetime", ageOfPerson);
+elemAge.textContent     = age;
+elemAge.setAttribute("datetime", age);
 
 // Days Until End of School Year
 const daysUntil         = getDaysUntilEvent("2026-06-15");
