@@ -1,5 +1,6 @@
 // Function
-export const getDayStreak = (startDate) => {
+export const getDayStreak = (startDate) =>
+  {
     // Convert start date to Date object
     const start = new Date(startDate);
   
@@ -11,7 +12,7 @@ export const getDayStreak = (startDate) => {
     // Calculate difference in milliseconds and convert to days
     const diffInTime = today.getTime() - start.getTime();
   
-    const streak = Math.floor(diffInTime / (1000 * 60 * 60 * 24));
+    const streak     = Math.floor(diffInTime / (1000 * 60 * 60 * 24));
   
     return streak;
   };

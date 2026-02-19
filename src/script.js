@@ -1,8 +1,8 @@
-import { initClock }            from './clock.js';
-import { initDate }             from './date.js';
-import { calculateAgeOf }       from './calculateAgeOf.js';
-import { getDaysUntilEvent }    from './daysTillEvent.js';
-import { getDayStreak }         from './streakOfDays.js';
+import { initClock }            from './util/clock.js';
+import { initDate }             from './util/date.js';
+import { calculateAgeOf }       from './util/calculateAgeOf.js';
+import { getDaysUntilEvent }    from './util/daysTillEvent.js';
+import { getDayStreak }         from './util/streakOfDays.js';
 
 // Clock
 initClock();
