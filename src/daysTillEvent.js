@@ -1,11 +1,12 @@
 // Function
-export const getDaysUntilEvent = (eventDate) => {
+export const getDaysUntilEvent = (eventDate) =>
+{
   // Create Date objects for now and the event
-  const now = new Date();
+  const now   = new Date();
   const event = new Date(eventDate);
 
   // Clear time portion for accurate day calculation
-  now.setHours(0, 0, 0, 0);
+  now  .setHours(0, 0, 0, 0);
   event.setHours(0, 0, 0, 0);
 
   // Calculate difference in milliseconds
