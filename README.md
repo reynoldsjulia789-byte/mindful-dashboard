@@ -15,4 +15,7 @@
 
 ## Citations
 * [Font Share](https://www.fontshare.com/)
-* CodePen, GitHub, AI, etc. for code snippets, ideas, etc.
+* [DESN 369 mindful dashboard template](https://github.com/ewuweblab/mindful-dashboard-vite-tailwind)
+* [DESN 369 collection of Pens](https://codepen.io/collection/wkabGg)
+* [DESN 369 course site](https://colin.manikoth.com/369/projects/mindful-dashboard/challenges)
+* [Icons from Lucide.dev](https://lucide.dev/icons/)
