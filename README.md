@@ -1,14 +1,11 @@
 # Mindful Dashboard
 
 ## Why? 
-* Introductiont to core JavaScript concepts
+* Introduction to core JavaScript concepts
 * Explore JavaScript Date objects
 * Manipulate the DOM nodes with dynamic content
 * Apply CSS styling to dynamic data
 * Explore pro/cons of JS libraries, plugins, frameworks, etc.
-
-## How?
-* Simply click on "Use this template" button to create a new repository
 
 ## Tech Stack
 - Node
