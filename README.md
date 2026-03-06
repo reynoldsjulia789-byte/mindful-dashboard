@@ -19,3 +19,5 @@
 * [DESN 369 collection of Pens](https://codepen.io/collection/wkabGg)
 * [DESN 369 course site](https://colin.manikoth.com/369/projects/mindful-dashboard/challenges)
 * [Icons from Lucide.dev](https://lucide.dev/icons/)
+* [Dragon image found for free through google](https://wall.alphacoders.com/big.php?i=451186)
+<!-- * [Dragon image from this site](https://www.freepik.com/photos/dragon-wallpaper-free-download) -->

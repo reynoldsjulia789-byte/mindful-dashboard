@@ -1,13 +1,6 @@
 /* Import TailwindCSS */
 @import "tailwindcss";
 
-/* Diagnostic Styling 
-- Delete when live to world (production phase)
-*/
-* {
-  outline : 1px solid lightgray;
-}
-
 @theme
 {
   --color-primary: oklch(0.6547 0.0242 213.46);
