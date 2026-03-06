@@ -1,13 +1,13 @@
 const theClockApp = () => {
   const timeNow = new Date();
 
-  let gotHours = timeNow.getHours();
+  let gotHours   = timeNow.getHours();
   let gotMinutes = timeNow.getMinutes();
   let gotSeconds = timeNow.getSeconds();
-  let gotAmOrPm = gotHours >= 12 ? "PM" : "AM";
+  let gotAmOrPm  = gotHours >= 12 ? "PM" : "AM";
 
-  gotHours = gotHours % 12 || 12;
-  gotHours = gotHours < 10 ? `0${gotHours}` : gotHours;
+  // gotHours = gotHours % 12 || 12;
+  gotHours   = gotHours < 10 ? `0${gotHours}` : gotHours;
   gotMinutes = gotMinutes < 10 ? `0${gotMinutes}` : gotMinutes;
   gotSeconds = gotSeconds < 10 ? `0${gotSeconds}` : gotSeconds;
 

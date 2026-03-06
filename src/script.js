@@ -10,18 +10,18 @@ initClock();
 // Date
 initDate();
 
-// Age of Person
-const age               = calculateAgeOf("2000-01-01");
+// years playing music
+const age               = calculateAgeOf("2009-08-01");
 const elemAge           = document.querySelector('.ageOfPerson');
 elemAge.textContent     = age;
 elemAge.setAttribute("datetime", age);
 
-// Days Until End of School Year
-const daysUntil         = getDaysUntilEvent("2026-06-15");
+// Days Until Graduation
+const daysUntil         = getDaysUntilEvent("2027-06-15");
 const elemEvent         = document.querySelector('.daysUntilEvent');
 elemEvent.textContent   = daysUntil;
 
-// Streak of Days
-const streak            = getDayStreak("2026-01-01");
+// Days studying CS
+const streak            = getDayStreak("2025-09-01");
 const elemStreak        = document.querySelector('.streakOfDays');
 elemStreak.textContent  = streak;

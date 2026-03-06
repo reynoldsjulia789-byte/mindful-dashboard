@@ -14,36 +14,43 @@
 
   </head>
 
-<body class="min-h-screen flex justify-center items-center bg-gray-100">
+<body class="min-h-screen flex justify-center items-center bg-[url(/src/img/dragon.jpg)] bg-cover font-serif text-2xl font-bold text-amber-200">
 
     <main class="w-[90%] max-w-7xl grid grid-cols-3 gap-4">
 
-        <section class="bg-white p-4 border" role="region" aria-label="Time">
-          <time class="time">
-            <span class="hours">HH</span>:<span class="minutes">MM</span>:<span class="seconds">SS</span>
-            <span class="amOrPm">AM/PM</span>
+        <section class="bg-black/50 backdrop-blur-xs rounded-2xl p-4 flex flex-col items-center justify-center row-span-2" role="region" aria-label="Days until event">
+          <p>Days until Graduation</p>
+          <p class="text-md p-3">
+            <time class="daysUntilEvent text-6xl">
+              000
+            </time>
+            days
+          </p>
+        </section>
+
+        <section class="bg-black/50 rounded-2xl p-4 flex flex-col items-center backdrop-blur-xs" role="region" aria-label="Date">
+          <time class="date text-3xl">
+            <span class="dayOfWeek">Day</span>
           </time>
-        </section>
-
-        <section class="bg-white p-4 border" role="region" aria-label="Date">
-          <time class="date">
-            <span class="month">January</span>
-            <span class="dayOfMonth">29</span>,
-            <span class="year">2024</span> —
-            <span class="dayOfWeek">Monday</span>
+          <time class="date text-lg">
+            <span class="month">Month</span>
+            <span class="dayOfMonth">DD</span>,
+            <span class="year">YYYY</span>
           </time>
+          <time class="time text-6xl p-4">
+            <span class="hours">HH</span>:<span class="minutes">MM</span>
+            <!-- :<span class="seconds">SS</span> -->
+            <!-- <span class="amOrPm">AM/PM</span> -->
+          </time>
+        </section>        
+
+        <section class="bg-black/50 backdrop-blur-xs rounded-2xl p-4 flex flex-col items-center justify-center row-span-2" role="region" aria-label="Streak">
+          <p>Days studying CS</p>
+          <p class="text-md p-3"><time class="streakOfDays text-5xl">000</time> days</p>
         </section>
 
-        <section class="bg-white p-4 border" role="region" aria-label="Days until event">
-          <p>Days until event: <time class="daysUntilEvent">000</time></p>
-        </section>
-
-        <section class="bg-white p-4 border" role="region" aria-label="Streak">
-          <p>Streak: <time class="streakOfDays">000</time></p>
-        </section>
-
-        <section class="bg-white p-4 border" role="region" aria-label="Age">
-          <p>Age: <time class="ageOfPerson">000</time> years</p>
+        <section class="bg-black/50 backdrop-blur-xs rounded-2xl p-4 flex flex-col items-center justify-center" role="region" aria-label="Age">
+          <p class="text-md"><time class="ageOfPerson text-5xl">000</time> years playing music</p>
         </section>
 
     </main>
